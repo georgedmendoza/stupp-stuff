@@ -3,6 +3,8 @@ import {CarouselService} from '../../services/carousel.service'
 import {Carousel} from '../../models/carousel/carousel';
 import { ImageService } from '../../services/images.service';
 
+import  data  from '../../../assets/carousel.json';
+
 
 @Component({
   selector: 'home',
@@ -21,13 +23,14 @@ export class HomeComponent implements OnInit {
   {"id":6, "name":"pic6", "url": "../../assets/images/pic6.jpg"},
 ]
 
+
+
   constructor(private carouselServices:CarouselService) { }
 
   ngOnInit(): void {
    this.carouselServices.getCarousel().then(carousel => {
      this.carousel = carousel;
    })
-   console.log(this.carousel);
   }
 
 }
