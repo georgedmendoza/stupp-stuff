@@ -5,6 +5,10 @@ import { HeaderComponent } from './shared/header/header.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
+  {
+    path: '**',
+    redirectTo: ''
+  }
 //   { path: '/header', component: HeaderComponent}
 
 ];
