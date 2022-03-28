@@ -1,27 +1,22 @@
 {
     "data": [
         {
-            "image": "../../../assets/images/proj-1.jpg"
+            "image": "../../../assets/images/pic1.jpg"
         },
         {
-            "image": "../../../assets/images/proj-2.jpg"
+            "image": "../../../assets/images/pic3.jpg"
         },
         
         {
-            "image": "../../../assets/images/proj-4.jpg"
+            "image": "../../../assets/images/pic4.jpg"
         },
         {
-            "image": "../../../assets/images/proj-5.jpg"
+            "image": "../../../assets/images/pic5.jpg"
         },
         {
-            "image": "../../../assets/images/proj-6.jpg"
-        },
-        {
-            "image": "../../../assets/images/proj-7.jpg"
-        },
-        {
-            "image": "../../../assets/images/proj-8.jpg"
+            "image": "../../../assets/images/pic6.jpg"
         }
+    
     ]
 }
 
