@@ -11,7 +11,7 @@ export class CarouselService {
 
   constructor(private http: HttpClient) { }
   getCarousel() {
-    return this.http.get<any>('./carousel.json')
+    return this.http.get<any>('assets/carousel.json')
       .toPromise()
       .then(res => <Carousel[]>res.data)
       .then(data => { return data; });
