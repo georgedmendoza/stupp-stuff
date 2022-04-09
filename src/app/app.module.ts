@@ -12,6 +12,7 @@ import { FooterComponent } from './shared/footer/footer.component';
 // primeng
 import {CarouselModule} from 'primeng/carousel';
 import { AboutComponent } from './pages/about/about.component';
+import { ContactComponent } from './pages/contact/contact.component';
 
 // import {AccordionModule} from 'primeng/accordion';
 
@@ -21,7 +22,8 @@ import { AboutComponent } from './pages/about/about.component';
     HeaderComponent,
     FooterComponent,
     HomeComponent,
-    AboutComponent
+    AboutComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,HttpClientModule,AppRoutingModule, CarouselModule, 
