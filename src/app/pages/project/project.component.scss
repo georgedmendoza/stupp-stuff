@@ -1,0 +1,11 @@
+.poster {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+    image-rendering: pixelated;
+}
