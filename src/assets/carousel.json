@@ -1,24 +1,31 @@
 {
     "data": [
         {
+            "id": 1,
             "image": "assets/images/proj-1.jpg"
         },
         {
+            "id": 2,
             "image": "assets/images/proj-2.jpg"
         },
         {
+            "id": 3,
             "image": "assets/images/proj-4.jpg"
         },
         {
+            "id": 4,
             "image": "assets/images/proj-5.jpg"
         },
         {
+            "id": 5,
             "image": "assets/images/proj-6.jpg"
         },
         {
+            "id": 6,
             "image": "assets/images/proj-7.jpg"
         },
         {
+            "id": 7,
             "image": "assets/images/proj-8.jpg"
         }
     

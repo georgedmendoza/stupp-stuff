@@ -1,9 +1,10 @@
 
 
-<p-carousel [value]="carousel"  [numVisible]="3" [numScroll]="3" [circular]="false">
+<p-carousel [value]="carousel"  [numVisible]="3" [numScroll]="1" [circular]="true" [autoplayInterval]="3000">
     <ng-template let-carousel pTemplate="item">
-       <div class="carousel">
+       <div class="carousel" [routerLink]="'/project/'+carousel.id">
            <!-- <img src="../../../assets/images/pic1.jpg" alt=""> -->
+           <!-- routeLink onclick sends to that project page -->
            <img src="{{carousel.image}}" alt="">
        </div>
     </ng-template>
